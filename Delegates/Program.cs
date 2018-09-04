@@ -19,6 +19,10 @@ namespace Delegates
             Console.ReadKey();
         }
 
+        /*
+         *This is useful for hooking of your custom logging
+         * https://www.codeproject.com/Articles/884981/Understanding-Delegates-in-Csharp-for-Beginners?msg=5551340#xx5551340xx
+         */
         public static void CustomLog(string a)
         {
             Console.WriteLine(a);
